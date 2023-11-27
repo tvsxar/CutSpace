@@ -1,0 +1,40 @@
+.nav {
+    padding: 35px 0;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+
+    img {
+        margin-right: 15px;
+    }
+}
+
+.navigation {
+    ul {
+        display: flex;
+        gap: 42px;
+    }
+
+    a {
+        &:hover {
+            color: $accent;
+        }
+
+        &.active {
+            font-weight: 700;
+            color: $accent;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.objects {
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+
+.objects-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.objects-text {
+    max-width: 543px;
+    padding-left: 181px;
+    flex-shrink: 0;
+
+    p + p {
+        margin-top: 20px;
+    }
+
+    a {
+        margin-top: 40px;
+    }
+}
+
+.objects-img {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+}
+
+.img-card-img {
+    border-radius: 20px 20px 0 20px;
+
+    .rounder & {
+        border-radius: 20px;
+    }
+}
+
+.image-card {
+    position: relative;
+    width: 385px;
+}
+
+.img-card-info {
+    position: absolute;
+    right: -46px;
+    bottom: 87px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 30px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+}
+
+.card-info-text h3 {
+    font-weight: 700;
+}
