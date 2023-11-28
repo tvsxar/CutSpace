@@ -140,7 +140,7 @@ body {
   display: block;
   width: 24px;
   height: 19px;
-  background-image: url(./../mail.svg);
+  background-image: url(./../images/mail.svg);
   background-size: initial;
   position: absolute;
   top: 20px;
@@ -528,7 +528,7 @@ body {
 .contacts {
   position: relative;
   padding-top: 200px;
-  background-image: url(../footer-bg.svg);
+  background-image: url(../images/footer-bg.svg);
   background-size: cover;
   padding-bottom: 55px;
   color: #FFF;
@@ -538,7 +538,7 @@ body {
   display: block;
   width: 743px;
   height: 372px;
-  background-image: url(../footer-oval.svg);
+  background-image: url(../images/footer-oval.svg);
   background-size: initial;
   position: absolute;
   bottom: 0;
@@ -550,7 +550,7 @@ body {
   width: 478px;
   height: 547px;
   margin-left: 79px;
-  background-image: url(../girl.png);
+  background-image: url(../images/girl.png);
   background-size: initial;
   position: absolute;
   bottom: 0;
